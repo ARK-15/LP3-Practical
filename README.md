@@ -2,4 +2,6 @@
 
 
 javac Hello.java
-java Hello
+
+\n java Hello
+\n remix.ethereum.org
