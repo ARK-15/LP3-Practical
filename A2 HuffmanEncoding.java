@@ -24,15 +24,21 @@
  *
  * Sample Input:
  * Number of characters: 4
- * Characters: a b c d
- * Frequencies: 5 9 12 13
+ * Characters: a b c d e f
+ * Frequencies: 50 10 30 5 3 2 
  *
  * One possible output:
  * Character    Huffman Code
- * a            110
- * b            111
- * c            10
- * d            0
+ * a            0 
+ * b            100
+ * c            11
+ * d            1010
+ * e            10111
+ * f            10110
+ *
+ * total bits required 185 
+ *
+ * Avg bits required to represent each character 185/100 = 1.85 bits/character
  *
  * Note: Huffman codes may differ depending on tie-breaking,
  * but the encoding remains valid.
